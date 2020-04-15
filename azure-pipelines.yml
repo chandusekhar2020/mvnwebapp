@@ -23,6 +23,6 @@ steps:
 
 - task: CopyFiles@2
   inputs:
-    SourceFolder: '''$(System.DefaultWorkingDirectory)/src'''
+    SourceFolder: 'chandusekhar2020 / mvnwebapp/'
     Contents: '**'
     TargetFolder: '/root/repo/'
